@@ -1,0 +1,140 @@
+/* .App {
+  text-align: center;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* general styling */
+
+body {
+  font: 13px/20px ;
+  color: #404040;
+  /* background: #0ca3d2; */
+}
+
+form {
+  max-width: 300px;
+}
+
+input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 1px solid #ccc;
+  border-radius: .1875rem;
+  box-sizing: border-box;
+  display: block;
+  font-size: .875rem;
+  margin-bottom: 1rem;
+  padding: .275rem;
+  width: 130%;
+  margin-left: 12%;
+  margin-top: 10%;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: checkbox;
+     -moz-appearance: checkbox;
+          appearance: checkbox;
+  display: inline-block;
+  width: auto;
+  /* vertical-align:middle; */
+}
+
+input[type="password"] {
+  margin-bottom: .5rem;
+  margin-left: 12%
+}
+
+input[type="submit"] {
+  background-color: #015294;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  margin-left: 12%
+}
+.item {
+  display: block;
+  margin-top: 10%
+}
+label {
+  
+  color: #666;
+  display: inline-block;
+  font-size: .875rem;
+  
+ 
+}
+.container {
+  margin-top: 19%;
+  margin: 50px auto;
+  width: 485px;
+  border: 1px solid #ccc;
+  height: 450px;
+border-radius: 10px;
+  background: white;
+}
+.Common-header{
+  height: 50px;
+  background:purple;
+  color:white
+}
+.Fakebox-input{
+  bottom: 0;
+  box-sizing: border-box;
+  left: 0;
+  margin: 0;
+  opacity: 0;
+  padding-inline-start: 20px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
